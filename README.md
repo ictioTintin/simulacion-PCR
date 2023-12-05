@@ -19,6 +19,7 @@ Para correr y analizar los datos descargados se requieren los siguientes program
 Una vez este todo listo, iniciamos:
 
 ###Descarga y formateo de los datos
+
 ```
 # Creo carpeta para almacenar todos los datos desde mi carpeta personal
 mkdir mitocondria
