@@ -18,14 +18,14 @@ Para correr y analizar los datos descargados se requieren los siguientes program
 
 Una vez este todo listo, iniciamos:
 
-###Descarga y formateo de los datos
+### Descarga de los datos
 
 ```
 # Creo carpeta para almacenar todos los datos desde mi carpeta personal
-mkdir mitocondria
+mkdir mitocondria2
 
 # entro a la carpeta
-cd mitochondria
+cd mitochondria2
 
 # descargo secuencias de DNA mitcondrial completas del ncbi
 wget "ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/mitochondrion/mitochondrion.1.genomic.gbff.gz"
@@ -90,7 +90,7 @@ ecofind -d ncbi20150518 '^Teleostei$'
 ### Estimacion de las mejores parejas de cebadores para el grupo de interes (Teleostei)
 
 ```
-#estimo los mejores sets de cebadores con ecocebadores y selecciono el mejor par que me da el archivo generado
+#estimo los mejores sets de cebadores con ecoPrimers y selecciono el mejor par que me da el archivo generado
 
 #desde la carpeta src del programa "en mi caso es /home/usuario/programas/ecopcr"
 ./ecocebadores -d /home/usuario/mitochondria2/mito.vert  -e 3 -3 2  -l 30 -L 150 -r 32443 -c > Teleostei.ecocebadores
