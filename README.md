@@ -1,7 +1,7 @@
 # Diseño y validacion in silico de cebadores especificos para peces
 
 >English version here:\
->[PCR-simulation](https://github.com/ictioTintin/PCR-simulation)
+>[simulacion-PCR](https://github.com/ictioTintin/simulacion-PCR)
 
 _Martin Holguin Osorio_\
 _Enero de 2020_ 
