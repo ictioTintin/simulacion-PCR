@@ -9,6 +9,10 @@ _Enero de 2020_
 >Estos experimentos estan basados en el trabajo hecho por Eric Coissac en 2015:\
 >[Designing a new DNA metabarcode for fish](https://metabarcoding.org/IMG/html/primerdesign.html)
 
+>Datos crudos y sus salidas pueden descargarse aqui
+>
+>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17042229.svg)](https://doi.org/10.5281/zenodo.17042229)
+
 ## Dependencias
 
 Para correr y analizar los datos descargados se requieren los siguientes programas:\
